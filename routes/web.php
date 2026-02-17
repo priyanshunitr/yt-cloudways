@@ -7,5 +7,5 @@ Route::get('/', function () {
 });
 
 Route::get('/about', function () {
-    return view('about.index');
+    return view('about.index',["name"=>"Sahu"]);
 });

@@ -1,10 +1,4 @@
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Route</title>
-</head>
-<body>
+<x-layout>
     <h1>About Page</h1>
-</body>
-</html>
+    <h2>{{ $name }}</h2>
+</x-layout>
