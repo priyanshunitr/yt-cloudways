@@ -6,8 +6,8 @@
     <title>Laravel</title>
     @vite(['resources/css/app.css'])
 </head>
-<body bgcolor="black">
+<body class="bg-black">
     <h1 style="color: white">Hello Laravel User</h1>
-    <a href="/about" style="color: green">About</a>
+    <a href="/about" class="bg-blue-500 p-4">About</a>
 </body>
 </html>
